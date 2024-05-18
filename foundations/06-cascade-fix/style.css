@@ -37,6 +37,6 @@ p {
   font-size: 22px;
 }
 
-.child {
+div > .child {
   font-size: 14px;
 }
