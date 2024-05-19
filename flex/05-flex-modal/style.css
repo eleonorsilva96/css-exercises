@@ -15,11 +15,38 @@ body {
   justify-content: center;
 }
 
+.gap-sm {
+  gap: 8px;
+}
+
+.gap-md {
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+}
+
+.row.header {
+  justify-content: space-between;
+}
+
+.row .header {
+  font-weight: 800;
+  font-size: 21px;
 }
 
 .icon {
@@ -33,6 +60,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
